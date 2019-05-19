@@ -1,0 +1,3 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+matierepremiere		TAR	78	nouvelle taille enregistrement : 78
+matierepremiere	prixAchatMatiere	CNW	Monétaire$Chaîne	la rubrique prixAchatMatiere a pour nouveau type Monétaire

@@ -1,0 +1,16 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+Production		TAR	49	nouvelle taille enregistrement : 49
+Production	date	RUB+		date est une nouvelle rubrique
+Production	matin	RUB+		matin est une nouvelle rubrique
+Production	soir	RUB+		soir est une nouvelle rubrique
+Production	total	RUB+		total est une nouvelle rubrique
+Production	montant	RUB+		montant est une nouvelle rubrique
+sortiestock		TAR	39	nouvelle taille enregistrement : 39
+sortiestock	matin	RUB+		matin est une nouvelle rubrique
+sortiestock	soir	RUB+		soir est une nouvelle rubrique
+sortiestock	total	RUB+		total est une nouvelle rubrique
+sortiestock	montant	RUB+		montant est une nouvelle rubrique
+matierepremiere		TAR	119	nouvelle taille enregistrement : 119
+matierepremiere	nomMatiere	RUB+		nomMatiere est une nouvelle rubrique
+matierepremiere	prixAchatMatiere	RUB+		prixAchatMatiere est une nouvelle rubrique
+fournisseur		NFI		nouveau fichier

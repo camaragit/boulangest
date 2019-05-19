@@ -1,0 +1,7 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Production		NFI		nouveau fichier
+vente		NFI		nouveau fichier
+sortiestock		NFI		nouveau fichier
+matierepremiere		NFI		nouveau fichier
+stockactuel		NFI		nouveau fichier
+entree		NFI		nouveau fichier

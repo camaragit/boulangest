@@ -1,0 +1,19 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+Production		TAR	57	nouvelle taille enregistrement : 57
+Production	IDProduit	RUB+		IDProduit est une nouvelle clé
+vente		TAR	33	nouvelle taille enregistrement : 33
+vente	IDProduit	RUB+		IDProduit est une nouvelle clé
+vente	IDclient	RUB+		IDclient est une nouvelle clé
+sortiestock		TAR	57	nouvelle taille enregistrement : 57
+sortiestock	cout	RUB+		cout est une nouvelle rubrique
+sortiestock	IDProduction	RUB+		IDProduction est une nouvelle clé
+entree		TAR	25	nouvelle taille enregistrement : 25
+entree	IDfournisseur	RUB+		IDfournisseur est une nouvelle clé
+client		TAR	119	nouvelle taille enregistrement : 119
+client	nomClient	RUB+		nomClient est une nouvelle rubrique
+client	prenomClient	RUB+		prenomClient est une nouvelle rubrique
+Contrainte_Production_sortiestock		NWL	Production (IDProduction) et sortiestock (IDProduction)	Nouvelle liaison entre les fichiers Production (IDProduction) et sortiestock (IDProduction)
+Contrainte_Produit_Production		NWL	Produit (IDProduit) et Production (IDProduit)	Nouvelle liaison entre les fichiers Produit (IDProduit) et Production (IDProduit)
+Contrainte_Produit_vente		NWL	Produit (IDProduit) et vente (IDProduit)	Nouvelle liaison entre les fichiers Produit (IDProduit) et vente (IDProduit)
+Contrainte_client_vente		NWL	client (IDclient) et vente (IDclient)	Nouvelle liaison entre les fichiers client (IDclient) et vente (IDclient)
+Contrainte_fournisseur_entree		NWL	fournisseur (IDfournisseur) et entree (IDfournisseur)	Nouvelle liaison entre les fichiers fournisseur (IDfournisseur) et entree (IDfournisseur)

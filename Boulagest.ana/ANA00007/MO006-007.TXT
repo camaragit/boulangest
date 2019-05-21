@@ -1,0 +1,22 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+Produit		TAR	139	nouvelle taille enregistrement : 139
+Produit	prideVente	RUB+		prideVente est une nouvelle rubrique
+Produit	FamilleProduit	RUB+		FamilleProduit est une nouvelle clé
+vente		TAR	106	nouvelle taille enregistrement : 106
+vente	DateVente	RUB+		DateVente est une nouvelle rubrique
+vente	TotalVendu	RUB+		TotalVendu est une nouvelle rubrique
+vente	MontantRecu	RUB+		MontantRecu est une nouvelle rubrique
+vente	Reliquat	RUB+		Reliquat est une nouvelle rubrique
+vente	IDProduit	RUB-		la clé IDProduit est supprimée
+sortiestock		TAR	66	nouvelle taille enregistrement : 66
+sortiestock	IDmatierepremiere	RUB+		IDmatierepremiere est une nouvelle clé
+matierepremiere		TAR	232	nouvelle taille enregistrement : 232
+matierepremiere	condidionnement	RUB+		condidionnement est une nouvelle rubrique
+matierepremiere	unite	RUB+		unite est une nouvelle rubrique
+matierepremiere	PrixParUnite	RUB+		PrixParUnite est une nouvelle rubrique
+matierepremiere	stockable	RUB+		stockable est une nouvelle rubrique
+Produit_vente		NFI		nouveau fichier
+Contrainte_Produit_vente		NWL	Produit (IDProduit) et Produit_vente (IDProduit)	Nouvelle liaison entre les fichiers Produit (IDProduit) et Produit_vente (IDProduit)
+Contrainte_matierepremiere_sortiestock		NWL	matierepremiere (IDmatierepremiere) et sortiestock (IDmatierepremiere)	Nouvelle liaison entre les fichiers matierepremiere (IDmatierepremiere) et sortiestock (IDmatierepremiere)
+Contrainte_vente_Produit		NWL	vente (IDvente) et Produit_vente (IDvente)	Nouvelle liaison entre les fichiers vente (IDvente) et Produit_vente (IDvente)
+Contrainte_Produit_vente		DEL	Produit (IDProduit) et vente (IDProduit)	Liaison supprimée entre les fichiers Produit (IDProduit) et vente (IDProduit)
